@@ -1,0 +1,7 @@
+If you can not activate the virtual enviroment it is couse windows shell restringed the action.
+to solve that:
+run power shell as admin
+1. Get-ExecutionPolicy
+2. Set-ExecutionPolicy RemoteSigned
+After that run 
+3. nombre_del_entorno\Scripts\activate , to activate your Venv.
